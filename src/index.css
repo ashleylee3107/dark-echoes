@@ -1,0 +1,37 @@
+* {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background-color: black;
+  color: white;
+}
+
+main {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.roster {
+  flex: 1;
+}
+
+ul.roster {
+  cursor: pointer;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+ul.roster li {
+  cursor: pointer;
+  padding: 14px 16px;
+  margin-bottom: 12px;
+  background-color: #7d7777;
+  border-radius: 6px;
+}
+
+ul.roster li:hover {
+  background-color: #333;
+}
+
+.details {
+  flex: 1;
+}
